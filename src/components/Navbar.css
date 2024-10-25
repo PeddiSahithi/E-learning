@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #4CAF50; /* Green background */
+    padding: 1rem; /* Padding around the navbar */
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Flexbox layout */
+    justify-content: space-around; /* Space items evenly */
+  }
+  
+  .navbar li {
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  .navbar li:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .active {
+    font-weight: bold; /* Bold for active item */
+    text-decoration: underline; /* Underline for active item */
+  }
+  
